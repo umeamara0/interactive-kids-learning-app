@@ -17,5 +17,5 @@ A simple and engaging web application designed to help children learn alphabets 
  Live Demo
 
 Experience the app here:
-[View Live Kids App]( https://github.com/umeamara0/interactive-kids-learning-app )
+[View Live Kids App](https://umeamara0.github.io/interactive-kids-learning-app/)
 
