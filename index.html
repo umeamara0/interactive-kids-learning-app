@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="javascript/index.js"></script>
+    <link
+     rel="stylesheet" 
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.3/css/all.min.css"/>
+   
+    <link rel="stylesheet" href="css/index.css"/>
+</head> 
+<body>
+    <div id="title-box">
+        <i class="fa fa-volume-up" id="icon"></i>
+        <h1 id="title"><font color="red">K</font>IDS <font color="orange">A</font>PP</h1>
+    </div>
+    <div id="container">
+        
+        <div id="container-btn">
+               <button onclick="player('a')">A</button>
+               <button onclick="player('b')">B</button>
+               <button onclick="player('c')">C</button>
+               <button onclick="player('d')">D</button>
+        </div>
+        <div>
+               <img src="images/kid.webp"  width="500px" height="350px" />
+        </div>
+    </div>
+    <audio id="audio"></audio>
+</body>
+</html>
